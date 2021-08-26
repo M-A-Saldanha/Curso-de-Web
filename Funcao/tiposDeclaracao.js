@@ -2,7 +2,7 @@ console.log(soma(3,4))
 /*
     Isso acontece porque o interpretador do JS já tem carregado as funções previamentes
     antes mesmo de ter executado o código.
-    Obs: o mesmo não acontece com functio expression
+    Obs: o mesmo não acontece com function expression
 */
 // function declaration.
 function soma(x,y){
