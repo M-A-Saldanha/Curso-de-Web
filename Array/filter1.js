@@ -1,3 +1,6 @@
+//Exemplos de uso do método .filter()
+
+
 const produtos = [
     {nome: 'Notebook', preco: 2500, fragil: true},
     {nome: 'iPad Pro', preco: 4199, fragil: true},

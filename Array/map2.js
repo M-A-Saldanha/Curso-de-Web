@@ -1,3 +1,6 @@
+//Exemplos de uso do método .map()
+
+
 const carrinho = [
     `{"Nome": "Borracha", "Preco": 3.45 }`,
     `{"Nome": "Caderno", "Preco": 13.90 }`,
