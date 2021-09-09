@@ -1,0 +1,1 @@
+Para testar os códigos dos exercicios eu utilizei a extensão do VS code chamada Live Server.
