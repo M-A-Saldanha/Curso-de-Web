@@ -34,6 +34,7 @@
             color: #eee;
             font-size: 1.3em;
             padding: 10px 15px;
+           
         }
         
         .menu a:hover {
@@ -54,6 +55,23 @@
         /* ==================== */
         /* Solução com Flex Box */
         /* ==================== */
+        
+       .cabecalho {
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+       }
+
+       .menu {
+           flex-grow: 10;
+       }
+
+       .menu ul {
+           display: flex;
+       }
+       .menu li {
+           margin: 0px 10px;
+       }
     </style>
 </head>
 
@@ -64,7 +82,7 @@
                 <img src="http://files.cod3r.com.br/curso-web/logo.png" alt="Logo" />
             </a>
         </div>
-        <nav class="menu">
+        <nav class="menu ">
             <ul>
                 <li>
                     <a href="#inicio">Início</a>
