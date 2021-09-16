@@ -34,6 +34,29 @@
             grid-template-columns: 3fr 6fr 3fr;
             grid-template-rows: 50% 25%  12.5% 12.5%;
             grid-template-rows: 100px 1fr 150px;
+            grid-template-rows: 100px auto;
+        }
+
+        .d8 {
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-column-end: span 2;
+            grid-row-start: 3;
+            grid-row-end: 5;
+            grid-row-end: span 2;
+        }
+
+        .d10,
+        .d11 {
+            /* Podem sobrepor */
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 5;
+            grid-row-end: span 1;
+        }
+
+        .d10 {
+            z-index: 10;
         }
     </style>
 </head>
