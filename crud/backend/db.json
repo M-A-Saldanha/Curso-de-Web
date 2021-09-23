@@ -1,19 +1,24 @@
 {
-    "product": [
-        {
-            "id": 1,
-            "name": "Caneta BIC Preta",
-            "preco": 5.89
-        },
-        {
-            "id": 2,
-            "name": "Notebook Samsung",
-            "preco": 8.999
-        },
-        {
-            "id": 3,
-            "name": "Iphone 12 pro Max ",
-            "preco": 12.999
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC  Ultrafina Preta ",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Notebook Mac Pro",
+      "price": 12000.89
+    },
+    {
+      "id": 3,
+      "name": "Samsung Note S20 + Plus Ultra",
+      "price": "10520.89"
+    },
+    {
+      "name": "Kit Caneta  Ultrafina preta",
+      "price": "10.90",
+      "id": 4
+    }
+  ]
 }
